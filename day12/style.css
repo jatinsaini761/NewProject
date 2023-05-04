@@ -9,7 +9,7 @@ body{
 div{
     width:200px;
     height: 200px;
-    display:inline-block;
+    /* display:inline-block; */
 }
 
 .red{
@@ -46,4 +46,10 @@ div{
 
 .teal{
     background-color: teal;
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+    body{
+        background-color: red;
+    }
 }
